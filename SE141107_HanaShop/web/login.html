@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <form action="DispatchServlet" method="POST">
+            UserID <input type="text" name="txtUserID" value="" /> <br/>
+            Password <input type="password" name="txtPassword" value="" /> <br/>
+            <input type="submit" value="Login" name="btAction" />
+            <input type="reset" value="Reset" /></br>
+        </form>
+        <a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8084/SE141107_HanaShop/LoginGoogleServlet&response_type=code&client_id=494755591833-lmid94hos03ajf933s2apoditsal4hv3.apps.googleusercontent.com
+"> Login with Google Account</a>
+    </body>
+</html>
